@@ -118,6 +118,20 @@
             a = (a / b);
             Console.WriteLine("After swap a={0} b={1}", a, b);
         }
+        public void Odd_even()
+        {
+            int GET_NUM;
+            Console.WriteLine("\n 8) Enter the value : ");
+            GET_NUM = int.Parse(Console.ReadLine());
+            if (GET_NUM % 2 == 0)
+            {
+                Console.WriteLine("{0} is Even number....", GET_NUM);
+            }
+            else
+            {
+                Console.WriteLine("{0} is Odd number....", GET_NUM);
+            }
+        }
         class Display
         {
             public static void Main(string[] args)
@@ -129,6 +143,7 @@
                 Console.WriteLine("5.Factorial");
                 Console.WriteLine("6.Quotient and Remainder");
                 Console.WriteLine("7.Swap two number");
+                Console.WriteLine("8.Odd or Even");
                 int USE_NUMBER;
                 Console.WriteLine("Enter youer choice :");
                 USE_NUMBER = int.Parse(Console.ReadLine());
@@ -155,6 +170,9 @@
                         break;
                     case 7:
                         program.Swap_number();
+                        break;
+                    case 8:
+                        program.Odd_even();
                         break;
 
                     default:
