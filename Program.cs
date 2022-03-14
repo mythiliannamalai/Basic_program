@@ -104,6 +104,20 @@
             Console.WriteLine("Quotient value : " + QUOTIENT);
             Console.WriteLine("Remainder value : " + REMAINDER);
         }
+        public void Swap_number()
+        {
+            int a;
+            int b;
+            Console.WriteLine("\n 7) Enter the Swap program A value = ");
+            a = int.Parse(Console.ReadLine());
+            Console.WriteLine(" Enter the Swap program B value = ");
+            b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Before swap a={0} b={1}", a, b);
+            a = (a * b);
+            b = (a / b);
+            a = (a / b);
+            Console.WriteLine("After swap a={0} b={1}", a, b);
+        }
         class Display
         {
             public static void Main(string[] args)
@@ -114,6 +128,7 @@
                 Console.WriteLine("4.Harmonic number");
                 Console.WriteLine("5.Factorial");
                 Console.WriteLine("6.Quotient and Remainder");
+                Console.WriteLine("7.Swap two number");
                 int USE_NUMBER;
                 Console.WriteLine("Enter youer choice :");
                 USE_NUMBER = int.Parse(Console.ReadLine());
@@ -137,6 +152,9 @@
                         break;
                     case 6:
                         program.Quotient_remainder();
+                        break;
+                    case 7:
+                        program.Swap_number();
                         break;
 
                     default:
