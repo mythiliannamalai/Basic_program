@@ -132,6 +132,22 @@
                 Console.WriteLine("{0} is Odd number....", GET_NUM);
             }
         }
+        public void Vowel()
+        {
+            char Alphabet;
+            Console.WriteLine("\n 9) Enter the alphabet : ");
+            Alphabet = char.Parse(Console.ReadLine());
+            if (Alphabet == 'a' || Alphabet == 'e' || Alphabet == 'i' || Alphabet == 'o' || Alphabet == 'u' || Alphabet == 'A' || Alphabet == 'E' || Alphabet == 'I' || Alphabet == 'O' || Alphabet == 'U')
+            {
+                Console.WriteLine("{0} is vowel...", Alphabet);
+
+            }
+            else
+            {
+                Console.WriteLine("{0} is consonant...", Alphabet);
+            }
+        }
+
         class Display
         {
             public static void Main(string[] args)
@@ -144,6 +160,7 @@
                 Console.WriteLine("6.Quotient and Remainder");
                 Console.WriteLine("7.Swap two number");
                 Console.WriteLine("8.Odd or Even");
+                Console.WriteLine("9.Vowel");
                 int USE_NUMBER;
                 Console.WriteLine("Enter youer choice :");
                 USE_NUMBER = int.Parse(Console.ReadLine());
@@ -173,6 +190,9 @@
                         break;
                     case 8:
                         program.Odd_even();
+                        break;
+                    case 9:
+                        program.Vowel();
                         break;
 
                     default:
