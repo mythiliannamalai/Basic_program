@@ -40,11 +40,25 @@
             Console.WriteLine("persentage of tail : " + TAIL);
             Console.WriteLine(TAIL_COUNT);
         }
+        public void Leap_year()
+        {
+            Console.WriteLine("\n 2) Enter the year");
+            int year = int.Parse(Console.ReadLine());
+            if (((year % 4 == 0) && (year % 100 == 0)) || (year % 400 == 0))
+            {
+                Console.WriteLine("{0} is a leap year", year);
+            }
+            else
+            {
+                Console.WriteLine("{0} is not leap year", year);
+            }
+        }
         class Display
         {
             public static void Main(string[] args)
             {
                 Console.WriteLine("1.Head and Tail");
+                Console.WriteLine("2.Leap year");
                 int USE_NUMBER;
                 Console.WriteLine("Enter youer choice :");
                 USE_NUMBER = int.Parse(Console.ReadLine());
@@ -53,6 +67,9 @@
                 {
                     case 1:
                         program.Head_tail();
+                        break;
+                    case 2:
+                        program.Leap_year();
                         break;
                     default:
                         Console.WriteLine("INVALID INPUT....");
