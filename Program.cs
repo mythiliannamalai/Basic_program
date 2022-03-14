@@ -53,6 +53,20 @@
                 Console.WriteLine("{0} is not leap year", year);
             }
         }
+        public void Power_2()
+        {
+            int baseNumber = 2;
+            int powerNumber;
+            int i = 1;
+            Console.Write("\n 3) Enter power number :");
+            powerNumber = int.Parse(Console.ReadLine());
+            while (i <= powerNumber)
+            {
+                var returnNumber = Math.Pow(baseNumber, i);
+                Console.Write("{0}^{1}={2}\n", baseNumber, i, returnNumber);
+                i++;
+            }
+        }
         class Display
         {
             public static void Main(string[] args)
@@ -70,6 +84,9 @@
                         break;
                     case 2:
                         program.Leap_year();
+                        break;
+                    case 3:
+                        program.Power_2();
                         break;
                     default:
                         Console.WriteLine("INVALID INPUT....");
