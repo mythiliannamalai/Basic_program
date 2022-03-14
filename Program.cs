@@ -67,12 +67,25 @@
                 i++;
             }
         }
+        public void Harmonic_number()
+        {
+            int i, n;
+            Console.WriteLine("\n 4)Enter the Nth value : ");
+            n = int.Parse(Console.ReadLine());
+            for (i = 1; i <= n; i++)
+            {
+                Console.WriteLine(" 1/{0} +", i);
+            }
+        }
+
         class Display
         {
             public static void Main(string[] args)
             {
                 Console.WriteLine("1.Head and Tail");
                 Console.WriteLine("2.Leap year");
+                Console.WriteLine("3.Power of 2");
+                Console.WriteLine("4.Harmonic number");
                 int USE_NUMBER;
                 Console.WriteLine("Enter youer choice :");
                 USE_NUMBER = int.Parse(Console.ReadLine());
@@ -87,6 +100,9 @@
                         break;
                     case 3:
                         program.Power_2();
+                        break;
+                    case 4:
+                        program.Harmonic_number();
                         break;
                     default:
                         Console.WriteLine("INVALID INPUT....");
