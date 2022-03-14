@@ -89,8 +89,21 @@
             }
             Console.WriteLine("factorial value : " + factorial);
         }
-
-
+        public void Quotient_remainder()
+        {
+            int DIVIDENT;
+            int DIVISOR;
+            int REMAINDER;
+            int QUOTIENT;
+            Console.WriteLine("\n 6)Enter the divident :");
+            DIVIDENT = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the divisor :");
+            DIVISOR = int.Parse(Console.ReadLine());
+            QUOTIENT = DIVIDENT / DIVISOR;
+            REMAINDER = DIVIDENT % DIVISOR;
+            Console.WriteLine("Quotient value : " + QUOTIENT);
+            Console.WriteLine("Remainder value : " + REMAINDER);
+        }
         class Display
         {
             public static void Main(string[] args)
@@ -100,6 +113,7 @@
                 Console.WriteLine("3.Power of 2");
                 Console.WriteLine("4.Harmonic number");
                 Console.WriteLine("5.Factorial");
+                Console.WriteLine("6.Quotient and Remainder");
                 int USE_NUMBER;
                 Console.WriteLine("Enter youer choice :");
                 USE_NUMBER = int.Parse(Console.ReadLine());
@@ -120,6 +134,9 @@
                         break;
                     case 5:
                         program.Factorial();
+                        break;
+                    case 6:
+                        program.Quotient_remainder();
                         break;
 
                     default:
