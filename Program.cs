@@ -147,7 +147,19 @@
                 Console.WriteLine("{0} is consonant...", Alphabet);
             }
         }
-
+        public void Largest_value()
+        {
+            int num1, num2, num3;
+            Console.WriteLine("\n 10) Enter the number 1 value : ");
+            num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine(" Enter the number 2 value : ");
+            num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine(" Enter the number 3 value : ");
+            num3 = int.Parse(Console.ReadLine());
+            var Max_value = Math.Max(num1, num2);
+            Max_value = Math.Max(Max_value, num3);
+            Console.WriteLine("The largest value is : " + Max_value);
+        }
         class Display
         {
             public static void Main(string[] args)
@@ -161,6 +173,7 @@
                 Console.WriteLine("7.Swap two number");
                 Console.WriteLine("8.Odd or Even");
                 Console.WriteLine("9.Vowel");
+                Console.WriteLine("10.Largest number");
                 int USE_NUMBER;
                 Console.WriteLine("Enter youer choice :");
                 USE_NUMBER = int.Parse(Console.ReadLine());
@@ -194,7 +207,9 @@
                     case 9:
                         program.Vowel();
                         break;
-
+                    case 10:
+                        program.Largest_value();
+                        break;
                     default:
                         Console.WriteLine("INVALID INPUT....");
                         break;
