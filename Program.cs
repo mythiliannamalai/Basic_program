@@ -77,6 +77,19 @@
                 Console.WriteLine(" 1/{0} +", i);
             }
         }
+        public void Factorial()
+        {
+            int user_enter;
+            int factorial = 1;
+            Console.WriteLine("\n 5) Enter the Factorial value : ");
+            user_enter = int.Parse(Console.ReadLine());
+            for (int i = user_enter; i > 1; i--)
+            {
+                factorial = i * factorial;
+            }
+            Console.WriteLine("factorial value : " + factorial);
+        }
+
 
         class Display
         {
@@ -86,6 +99,7 @@
                 Console.WriteLine("2.Leap year");
                 Console.WriteLine("3.Power of 2");
                 Console.WriteLine("4.Harmonic number");
+                Console.WriteLine("5.Factorial");
                 int USE_NUMBER;
                 Console.WriteLine("Enter youer choice :");
                 USE_NUMBER = int.Parse(Console.ReadLine());
@@ -104,6 +118,10 @@
                     case 4:
                         program.Harmonic_number();
                         break;
+                    case 5:
+                        program.Factorial();
+                        break;
+
                     default:
                         Console.WriteLine("INVALID INPUT....");
                         break;
