@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\bin\Debug\net6.0\Basic_program_day5.exe
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\bin\Debug\net6.0\Basic_program_day5.deps.json
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\bin\Debug\net6.0\Basic_program_day5.runtimeconfig.json
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\bin\Debug\net6.0\Basic_program_day5.dll
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\bin\Debug\net6.0\Basic_program_day5.pdb
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\obj\Debug\net6.0\Basic_program_day5.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\obj\Debug\net6.0\Basic_program_day5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\obj\Debug\net6.0\Basic_program_day5.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\obj\Debug\net6.0\Basic_program_day5.AssemblyInfo.cs
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\obj\Debug\net6.0\Basic_program_day5.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\obj\Debug\net6.0\Basic_program_day5.dll
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\obj\Debug\net6.0\refint\Basic_program_day5.dll
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\obj\Debug\net6.0\Basic_program_day5.pdb
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\obj\Debug\net6.0\Basic_program_day5.genruntimeconfig.cache
+C:\Users\user\source\repos\Assignment_basic_program\Basic_program_day5\Basic_program_day5\obj\Debug\net6.0\ref\Basic_program_day5.dll
